@@ -1,0 +1,19 @@
+Sun Jul 29 11:29:46 PDT 2012
+Express server listening on port 31415
+Sun Jul 29 11:34:06 PDT 2012
+Express server listening on port 31415
+Sun Jul 29 11:37:57 PDT 2012
+Express server listening on port 31415
+Sun Jul 29 11:38:09 PDT 2012
+Sun Jul 29 11:40:35 PDT 2012
+Express server listening on port 31415
+[90mGET / [32m200 [90m811ms - 391[0m
+[90mGET / [32m200 [90m80ms - 391[0m
+[90mGET /stylesheets/style.css [32m200 [90m49ms - 208[0m
+[90mGET /images/Raspberry_Pi_Logo.svg [32m200 [90m38ms - 8.67kb[0m
+[90mGET / [32m200 [90m101ms - 391[0m
+[90mGET /stylesheets/style.css [36m304 [90m30ms[0m
+[90mGET /images/Raspberry_Pi_Logo.svg [36m304 [90m14ms[0m
+Sun Jul 29 11:56:37 PDT 2012
+Express server listening on port 31415
+Sun Jul 29 11:56:49 PDT 2012

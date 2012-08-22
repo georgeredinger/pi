@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  H1 Welcome to the Office Coffee Pot 
+  p= "Uptime:  " + Math.round((process.uptime()/3600.0)*10)/10 + " hours " + Date()
+  div#camera
+    img(alt='now', title='1 minute', src='images/captures/image.jpeg')  
+    ul
+      each hour, key in hours
+        li
+          img( title='#{hour}',alt='#{hour}',src='images/captures/image#{hour}.jpeg')  
+

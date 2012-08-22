@@ -1,0 +1,20 @@
+body {
+  padding: 5px 0 50px 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+#bg img
+{
+margin-top: -350px;
+  opacity:0.3;
+  filter:alpha(opacity=30); /* For IE8 and earlier */
+}
+li { list-style-type: none;}
+
+#cam img {
+  position: relative;
+  margin-top: -200px;
+}
