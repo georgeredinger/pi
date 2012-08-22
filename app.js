@@ -31,8 +31,12 @@ app.get('/', function(req, res) {
 			var offset = 0;
 			var index=0;
 			for(i=0;i<24;i++){
-				offset = Math.abs((i-h) % 24);
+				offset = (h-i);
+				if(offset < 0){
+					offset +=24;
+				}
         hours[i] = offset;
+				console.log(i + " " + hours[i]);
 			}
 		  res.render('index', {title: 'The Office Coffee Pot',
       hours: hours
